@@ -18,7 +18,7 @@ void conta::criar_conta_corrente()
 	tipo = 'C';
 }
 
-void conta:: criar_conta_poupanca()
+void conta::criar_conta_poupanca()
 {
 	cout<<"\nNumero da conta: ";
 	cin>>num_conta;
@@ -164,7 +164,7 @@ void registro_conta_limite()
 }
 
 
-void exibir_detalhes(int n) //função para ler registro específico do arquivo
+void exibir_detalhes(int n) //funÃ§Ã£o para ler registro especÃ­fico do arquivo
 {
 	conta ac;
 	bool flag=false;
@@ -219,7 +219,7 @@ void alterar_dados_conta(int n) //funcao para alterar dados gravados no arquivo
 	}
 	File.close();
 	if(found==false)
-		cout<<"\n\n Registro não encontrado ";
+		cout<<"\n\n Registro nÃ£o encontrado ";
 }
 
 
@@ -315,6 +315,6 @@ void depositar_retirar(int n, int option) // funcao para realizar depositos e sa
          }
 	File.close();
 	if(found==false)
-		cout<<"\n\n Registro não encontrado ";
+		cout<<"\n\n Registro nÃ£o encontrado ";
 }
 
